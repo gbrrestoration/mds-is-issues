@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
+  - name: Reef Restoration and Adapatation Program (RRAP)
+    url: https://gbrrestoration.org/
+    about: Reef Restoration and Adapatation Program (RRAP)
+  - name: RRAP Modelling and Decision Support (M&DS)
+    url: https://gbrrestoration.org/program/modelling-and-decision-support/
+    about: https://gbrrestoration.org/program/modelling-and-decision-support/
