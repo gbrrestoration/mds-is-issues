@@ -56,26 +56,22 @@ body:
     placeholder: connectivity
   validations:
     required: true
-- type: dropdown
+- type: checkboxes
   id: lt-1yo-characterisation
   attributes: 
     label: less than 1yo characterisation 
     description: characterisation of < 1yo populations
-    multiple: false
     options: 
-      - true 
-      - false
+      - label: "<1yo characterisation" 
   validations:
     required: true
-- type: dropdown
+- type: checkboxes
   id: gt-1yo-characterisation
   attributes: 
     label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
-    multiple: false
     options: 
-      - true 
-      - false
+      - label: ">1yo characterisation" 
   validations:
     required: true
 - type: input
