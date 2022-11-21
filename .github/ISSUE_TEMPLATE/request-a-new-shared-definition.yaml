@@ -1,7 +1,7 @@
 ---
 name: New definition request form
 description: A request for a new shared definition.
-title: " "
+title: "[NDR]"
 labels: [ "definition" , "request" ]
 body: 
 - type: markdown
