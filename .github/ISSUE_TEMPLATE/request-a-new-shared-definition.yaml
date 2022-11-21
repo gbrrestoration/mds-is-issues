@@ -62,7 +62,7 @@ body:
     label: less than 1yo characterisation 
     description: characterisation of < 1yo populations
     options: 
-      - label: "<1yo characterisation" 
+      - label: "true" 
   validations:
     required: true
 - type: checkboxes
@@ -71,7 +71,7 @@ body:
     label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
     options: 
-      - label: " >1yo characterisation" 
+      - label: "true" 
   validations:
     required: true
 - type: input
