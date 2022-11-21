@@ -6,7 +6,7 @@ labels: new_definition_request
 body: 
 - type: markdown
   attributes: 
-    value: "## Thanks for suggesting a new shared definition"
+    value: ## Thanks for suggesting a new shared definition
 - type: input
   id: prefLabel
   attributes: 
