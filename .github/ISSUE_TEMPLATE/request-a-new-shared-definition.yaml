@@ -2,11 +2,11 @@
 name: New definition request form
 description: A request for a new shared definition.
 title: "[NDR]: "
-labels: new_definition_request
+labels: [ "definition" , "request" ]
 body: 
 - type: markdown
   attributes: 
-    value: ## Thanks for suggesting a new shared definition
+    value: "## Thanks for suggesting a new shared definition"
 - type: input
   id: prefLabel
   attributes: 
