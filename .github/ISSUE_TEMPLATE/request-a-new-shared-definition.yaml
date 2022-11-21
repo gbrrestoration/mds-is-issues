@@ -1,7 +1,7 @@
 ---
 name: New definition request form
 description: A request for a new shared definition.
-title: "[NDR]: "
+title: " "
 labels: [ "definition" , "request" ]
 body: 
 - type: markdown
@@ -23,18 +23,6 @@ body:
     placeholder: definition
   validations:
     required: true
-- type: input
-  id: sourceURI
-  attributes: 
-    label: Documentation (URI)
-    description: URI for documentation
-    placeholder: URI
-- type: textarea
-  id: source
-  attributes:
-    label: Documentation (citation)
-    description: citation for the documentation
-    placeholder: citation
 - type: dropdown
   id: processing
   attributes: 
@@ -46,6 +34,21 @@ body:
       - Ecological modeling
       - Particle trajectories
       - Currents
+- type: dropdown
+  id: category
+  attributes: 
+    label: Parameter category 
+    description: Parameter category
+    multiple: true
+    options:
+      - Vital rates
+      - Connectivity
+      - Spawning
+      - Intervention characteristics
+      - Trade-offs
+      - Tolerance
+      - Spatial
+      - Enhanced-Natural interactions
 - type: input
   id: connectivity
   attributes: 
@@ -58,14 +61,26 @@ body:
     label: less than 1yo characterisation 
     description: characterisation of < 1yo populations
     options: 
-      - label: "true" 
+      - label: "yes" 
 - type: checkboxes
   id: gt-1yo-characterisation
   attributes: 
     label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
     options: 
-      - label: "true" 
+      - label: "yes" 
+- type: input
+  id: sourceURI
+  attributes: 
+    label: Documentation (URI)
+    description: URI for documentation
+    placeholder: URI
+- type: textarea
+  id: source
+  attributes:
+    label: Documentation (citation)
+    description: citation for the documentation
+    placeholder: citation
 - type: input
   id: contact
   attributes: 
