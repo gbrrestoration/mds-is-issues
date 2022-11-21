@@ -53,7 +53,7 @@ body:
     description: Connectivity
     placeholder: connectivity
 - type: dropdown
-  id: lt.1yo.characterisation
+  id: lt-1yo-characterisation
   attributes: 
     label: less than 1yo characterisation 
     description: characterisation of < 1yo populations
@@ -62,7 +62,7 @@ body:
       - label: true 
       - label: false
 - type: dropdown
-  id: gt.1yo.characterisation
+  id: gt-1yo-characterisation
   attributes: 
     label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
