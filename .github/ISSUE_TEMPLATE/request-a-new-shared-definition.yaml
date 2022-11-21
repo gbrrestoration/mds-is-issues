@@ -1,0 +1,84 @@
+---
+name: New definition request form
+description: A request for a new shared definition.
+title: "[NDR]: "
+labels: new_definition_request
+body: 
+- type: markdown
+  attributes: 
+    value: "## Thanks for suggesting a new shared definition"
+- type: input
+  id: prefLabel
+  attributes: 
+    label: Definition name
+    description: label for the definition
+    placeholder: label
+  validations:
+    required: true
+- type: textarea
+  id: definition
+  attributes:
+    label: Definition text
+    description: textual definition
+    placeholder: definition
+  validations:
+    required: true
+- type: input
+  id: sourceURI
+  attributes: 
+    label: Documentation (URI)
+    description: URI for documentation
+    placeholder: URI
+- type: textarea
+  id: source
+  attributes:
+    label: Documentation (citation)
+    description: citation for the documentation
+    placeholder: citation
+- type: dropdown
+  id: processing
+  attributes: 
+    label: Processing stage 
+    description: related processing stage
+    multiple: true
+    options:
+      - label: Connectivity matrices
+      - label: Ecological modeling
+      - label: Particle trajectories
+      - label: Currents
+- type: input
+  id: connectivity
+  attributes: 
+    label: Connectivity 
+    description: Connectivity
+    placeholder: connectivity
+- type: dropdown
+  id: lt.1yo.characterisation
+  attributes: 
+    label: < 1yo characterisation 
+    description: characterisation of < 1yo populations
+    multiple: false
+    options: 
+      - label: true 
+      - label: false
+- type: dropdown
+  id: gt.1yo.characterisation
+  attributes: 
+    label: > 1yo characterisation 
+    description: characterisation of > 1yo populations
+    multiple: false
+    options: 
+      - label: true 
+      - label: false
+- type: input
+  id: contact
+  attributes: 
+    label: Parameter focal point
+    description: Primary contact for this parameter
+    placeholder: INITIALS
+- type: textarea
+  id: comment
+  attributes:
+    label: additional information
+    description: comment
+    placeholder: comment
