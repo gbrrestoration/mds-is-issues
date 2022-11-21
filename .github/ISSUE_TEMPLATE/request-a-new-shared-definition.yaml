@@ -44,10 +44,10 @@ body:
       - Vital rates
       - Connectivity
       - Spawning
+      - Spatial
       - Intervention characteristics
       - Trade-offs
       - Tolerance
-      - Spatial
       - Enhanced-Natural interactions
 - type: input
   id: connectivity
