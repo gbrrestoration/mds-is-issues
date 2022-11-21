@@ -55,7 +55,7 @@ body:
 - type: dropdown
   id: lt.1yo.characterisation
   attributes: 
-    label: < 1yo characterisation 
+    label: less than 1yo characterisation 
     description: characterisation of < 1yo populations
     multiple: false
     options: 
@@ -64,7 +64,7 @@ body:
 - type: dropdown
   id: gt.1yo.characterisation
   attributes: 
-    label: > 1yo characterisation 
+    label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
     multiple: false
     options: 
