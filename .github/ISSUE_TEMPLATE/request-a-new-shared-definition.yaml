@@ -42,16 +42,20 @@ body:
     description: related processing stage
     multiple: true
     options:
-      - label: Connectivity matrices
-      - label: Ecological modeling
-      - label: Particle trajectories
-      - label: Currents
+      - Connectivity matrices
+      - Ecological modeling
+      - Particle trajectories
+      - Currents
+  validations:
+    required: true
 - type: input
   id: connectivity
   attributes: 
     label: Connectivity 
     description: Connectivity
     placeholder: connectivity
+  validations:
+    required: true
 - type: dropdown
   id: lt-1yo-characterisation
   attributes: 
@@ -59,8 +63,10 @@ body:
     description: characterisation of < 1yo populations
     multiple: false
     options: 
-      - label: true 
-      - label: false
+      - true 
+      - false
+  validations:
+    required: true
 - type: dropdown
   id: gt-1yo-characterisation
   attributes: 
@@ -68,14 +74,18 @@ body:
     description: characterisation of > 1yo populations
     multiple: false
     options: 
-      - label: true 
-      - label: false
+      - true 
+      - false
+  validations:
+    required: true
 - type: input
   id: contact
   attributes: 
     label: Parameter focal point
     description: Primary contact for this parameter
     placeholder: INITIALS
+  validations:
+    required: true
 - type: textarea
   id: comment
   attributes:
