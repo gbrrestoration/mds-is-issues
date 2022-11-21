@@ -71,7 +71,7 @@ body:
     label: more than 1yo characterisation 
     description: characterisation of > 1yo populations
     options: 
-      - label: "\>1yo characterisation" 
+      - label: "1+ yo characterisation" 
   validations:
     required: true
 - type: input
