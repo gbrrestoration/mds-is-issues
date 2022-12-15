@@ -23,6 +23,24 @@ body:
     placeholder: definition
   validations:
     required: true
+- type: input
+  id: exactMatch
+  attributes: 
+    label: exact match (URI)
+    description: URI for the same concept from another controlled vocabulary
+    placeholder: URI
+- type: input
+  id: closeMatch
+  attributes: 
+    label: close match (URI)
+    description: URI for a similar concept from another controlled vocabulary
+    placeholder: URI
+- type: input
+  id: relatedMatch
+  attributes: 
+    label: related match (URI)
+    description: URI for a related concept from another controlled vocabulary
+    placeholder: URI
 - type: dropdown
   id: processing
   attributes: 
